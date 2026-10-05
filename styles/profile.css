@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 19px 34px;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  font-size: large;
+}
+header a {
+  color: yellow;
+  font-size: large;
+}
+
+.section-one {
+  padding: 50px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: goldenrod;
+}
+.section-one .text {
+  line-height: 30px;
+}
+.section-one .text .name {
+  font-family: arial black;
+  padding-bottom: 10px;
+}
+.section-one .text .nation {
+  padding-bottom: 10px;
+}
+.section-one .text .nation b {
+  font-size: larger;
+}
+.section-one .text .posi {
+  padding-bottom: 10px;
+}
+.section-one .text .posi b {
+  font-size: larger;
+}
+.section-one .pic {
+  width: 60%;
+  height: 350px;
+}
+.section-one .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-two {
+  width: 100%;
+}
+.section-two .top {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  font-family: arial black;
+  padding-bottom: 10px;
+}
+.section-two details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.section-two .a {
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px 8px;
+  background: black;
+  color: yellow;
+}/*# sourceMappingURL=profile.css.map */
